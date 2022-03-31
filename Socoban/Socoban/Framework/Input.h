@@ -1,6 +1,7 @@
 #pragma once
 
 #include <stdint.h>
+<<<<<<< HEAD
 #include <stdbool.h>
 
 typedef enum KeyCode
@@ -9,6 +10,15 @@ typedef enum KeyCode
 	KEYCODE_A = 'A',
 	KEYCODE_S = 'S',
 	KEYCODE_D = 'D'
+=======
+
+typedef enum KeyCode
+{
+	W = 'W',
+	A = 'A',
+	S = 'S',
+	D = 'D'
+>>>>>>> origin/implment-game-framework
 } EKeyCode;
 
 /// <summary>
@@ -29,7 +39,11 @@ bool GetButtonDown(EKeyCode keyCode);
 /// <param name="keyCode">가상 키 코드</param>
 /// <returns>뗐다면 true, 아니면 false</returns>
 bool GetButtonUp(EKeyCode keyCode);
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/implment-game-framework
 /// <summary>
 /// 버튼이 계속 눌렸는지 체크한다
 /// </summary>
