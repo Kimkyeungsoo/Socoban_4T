@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Framework\Game.c" />
+    <ClCompile Include="Framework\Input.c" />
     <ClCompile Include="Framework\Renderer.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="stdaxf.c">
@@ -153,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\Game.h" />
+    <ClInclude Include="Framework\Input.h" />
     <ClInclude Include="Framework\Renderer.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
