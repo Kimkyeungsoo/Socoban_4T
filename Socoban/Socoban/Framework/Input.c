@@ -7,7 +7,6 @@ static bool s_currentKeyStates[256] = { false };
 // 이전 프레임의 키 상태
 static bool s_prevKeyStates[256] = { false };
 
-<<<<<<< HEAD
 bool isKeyDown(int32_t keyCode)
 {
 	// 1000 0000 0000 0000
@@ -46,11 +45,6 @@ void UpdateInput()
 		// 3. GetAsyncKeyState() ---- GetAsyncKeyState()
 		//                         ^ 요 사이에 눌렸는지		
 	}
-=======
-void UpdateInput()
-{
-
->>>>>>> origin/implment-game-framework
 }
 
 bool GetButtonDown(EKeyCode keyCode)
@@ -60,11 +54,7 @@ bool GetButtonDown(EKeyCode keyCode)
 		return true;
 	}
 	else
-<<<<<<< HEAD
 	{
-=======
-	{ 
->>>>>>> origin/implment-game-framework
 		return false;
 	}
 }

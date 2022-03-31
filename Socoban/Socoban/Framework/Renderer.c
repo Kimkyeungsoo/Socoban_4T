@@ -32,12 +32,12 @@ bool InitializeRenderer()
 void RenderMap()
 {
 	// 콘솔에서 map을 찍을 위치 설정
-	const static COORD initialPos = {0,0};
+	const static COORD initialPos = { 0,0 };
 	// 커서 사이즈
 	//info.dwSize = 100;
 	// 숨길 것 인지 표출 할 것 인지
 	//info.bVisible = false;
-	const static CONSOLE_CURSOR_INFO info = {100,false};
+	const static CONSOLE_CURSOR_INFO info = { 100,false };
 	// 콘솔 커서 포지션을 옮긴후
 	SetConsoleCursorPosition(s_consoleHandle, initialPos);
 	// 커서를 숨긴후에

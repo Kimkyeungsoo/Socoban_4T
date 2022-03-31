@@ -56,8 +56,8 @@ int32_t Run()
 		// 업데이트
 		update();
 		// 렌더링
-		render(); 
+		render();
 	}
 
 	return 0;
-} 
+}
