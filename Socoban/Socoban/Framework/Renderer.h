@@ -13,3 +13,6 @@ bool InitializeRenderer();
 /// </summary>
 /// <returns></returns>
 void RenderMap();
+
+// 버튼입력 확인 테스트 코드
+void SetKeyMessage(int32_t keyCode);
