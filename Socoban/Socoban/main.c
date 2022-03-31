@@ -1,8 +1,6 @@
-#include <stdio.h>
+#include "stdafx.h"
 
 int main()
 {
-	printf("경수 화이팅");
-
-	return 0;
+	puts("경수 화이팅이야");
 }
